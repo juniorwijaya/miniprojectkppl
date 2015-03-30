@@ -24,11 +24,11 @@ header('location:warning.php');
 <tr>
   <td width="133" align="center" bgcolor="#55f631"><table width="1350" cellpadding="1" cellspacing="1">
     <tr>
-      <td width="401" height="18" align="right" bgcolor="#55f631"><a href="beranda.php">Home</a></td>
+	<td width="401" height="18" align="right" bgcolor="#55f631"><a href="notifikasi.php">Home</a></td>
       <td width="88" align="center" bgcolor="#55f631"><a href="akun_klien.php">Akun Klien</a></td>
       <td width="84" align="center" bgcolor="#55f631"><a href="akun_user.php">Akun User</a></td>
       <td width="108" align="center" bgcolor="#55f631"><a href="tempat_makan.php">Tempat Makan</a></td>
-      <td width="79" align="center" bgcolor="#55f631"><a href="testimoni.php">Testimoni</a></td>
+      <td width="100" align="center" bgcolor="#55f631"><a href="testimoni.php">Testimoni</a></td>
       <td width="577" bgcolor="#55f631"><form id="form1" name="form1" method="post" action="">
         <a href="setting.php">Setting </a>
       </form></td>

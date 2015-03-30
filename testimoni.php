@@ -25,7 +25,7 @@ include ('session.php');
 <tr>
   <td width="133" align="center" bgcolor="#55f631"><table width="1350" cellpadding="1" cellspacing="1">
     <tr>
-      <td width="401" height="18" align="right" bgcolor="#55f631"><a href="notifikasi.php">Home</a></td>
+	<td width="401" height="18" align="right" bgcolor="#55f631"><a href="notifikasi.php">Home</a></td>
       <td width="100" align="center" bgcolor="#55f631"><a href="akun_klien.php">Akun Klien</a></td>
       <td width="84" align="center" bgcolor="#55f631"><a href="akun_user.php">Akun User</a></td>
       <td width="108" align="center" bgcolor="#55f631"><a href="tempat_makan.php">Tempat Makan</a></td>
@@ -40,35 +40,11 @@ include ('session.php');
 
   <table width="1358" border="0" align="left">
     <tr style="text-align: center">
-      <td width="75%" bgcolor="#0b6572" class="footer" style="font-style: normal; color: #FFF; font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif; font-weight: bolder;">Akun Klien</td>
+      <td width="75%" bgcolor="#0b6572" class="footer" style="font-style: normal; color: #FFF; font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif; font-weight: bolder;">Testimoni</td>
     </tr>
     <tr>
       <td bgcolor="#00aac3" class="body" style="font-style: normal; color: #000000;"><p>
-	<FORM action="" method="POST" name="input">
-	<input name="submit" type="submit" value="Add" /><br>
-	</FORM>
 	
-<?php
-if (isset($_POST['submit'])) {
- header('location:tambah_akun_klien.php');}
-?>
-
-<?php
-include('koneksi.php');
-$query = "SELECT * FROM klien";
-$sql = mysql_query ($query);
-while ($hasil = mysql_fetch_array ($sql)){
- $nama_klien = stripslashes ($hasil['Nama']);
- $alamat_klien = stripslashes ($hasil['Alamat']);
- $nohp_klien = stripslashes ($hasil['NoHP']);
- $email_klien = stripslashes ($hasil['Email']);
- //tampilkan berita
- echo "<br>Nama        : ".$nama_klien."<br>";
- echo "Alamat        : ".$alamat_klien."<br>";
- echo "NoHP        : ".$nohp_klien."<br>";
- echo "Email        : ".$email_klien."<br>";
-}
-?>
       &nbsp;</p></td>
     </tr>
   </table>

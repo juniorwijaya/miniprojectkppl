@@ -44,14 +44,6 @@ include ('session.php');
     </tr>
     <tr>
       <td bgcolor="#00aac3" class="body" style="font-style: normal; color: #000000;"><p>
-	<FORM action="" method="POST" name="input">
-	<input name="submit" type="submit" value="Add" /><br>
-	</FORM>
-	
-<?php
-if (isset($_POST['submit'])) {
- header('location:tambah_akun_user.php');}
-?>
 
 <?php
 include('koneksi.php');
