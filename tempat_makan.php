@@ -25,7 +25,7 @@ include ('session.php');
 <tr>
   <td width="133" align="center" bgcolor="#55f631"><table width="1350" cellpadding="1" cellspacing="1">
     <tr>
-      <td width="401" height="18" align="right" bgcolor="#55f631"><a href="beranda.php">Home</a></td>
+      <td width="401" height="18" align="right" bgcolor="#55f631"><a href="notifikasi.php">Home</a></td>
       <td width="100" align="center" bgcolor="#55f631"><a href="akun_klien.php">Akun Klien</a></td>
       <td width="84" align="center" bgcolor="#55f631"><a href="akun_user.php">Akun User</a></td>
       <td width="108" align="center" bgcolor="#55f631"><a href="tempat_makan.php">Tempat Makan</a></td>
